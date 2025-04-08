@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+  }
+  
+  #toolbar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #fff;
+    gap: 8px;
+  }
+  
+  #url {
+    flex: 1;
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+  
+  #browser-frame {
+    width: 100%;
+    height: calc(100vh - 48px);
+    border: none;
+  }
+  
+  
+  
+  
